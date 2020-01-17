@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 4</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<form id="signUp">
+		<section>
+
+	<!-- //====================================================================\\
+		//======================= H1 title OPEN =========================\\ -->
+
+		<div class="header_validate">
+			<h1>Form Validation</h1>
+		</div>
+
+	<!-- //======================= H1 title CLOSE =========================\\
+		//=====================================================================\\ -->
+
+
+
+
+
+	<!-- //====================================================================\\
+		//======================= radio buttons OPEN =========================\\ -->
+
+		<div id="radio_div">
+			<label id="radioLabel">Gender</label>
+
+			<input type="radio" id="radioMale" name="gender">
+			<label for="radioMale" id="tmp">Male</label>
+			
+			<input type="radio" id="radioFemale" name="gender">
+			<label for="radioFemale" id="tmp2">Female</label>
+
+			<span><label class="validateGender">Please Select your Gender</label></span>
+		</div>
+
+	<!-- //======================= radio buttons CLOSE =========================\\
+		//=====================================================================\\ -->
+
+
+
+
+
+	<!-- //====================================================================\\
+		//======================= form input fields OPEN =========================\\ -->
+		<!-- INFORMATION FIELDS -->
+		<div>
+			<label >Lastname: </label>
+			<input type="text" name="lastname" id="inputLastName">
+			<span><label class="validateLastName"> Your last name cannot be less than 2 characters</label></span>
+		</div>
+
+		<div>
+			<label >Firstname: </label>
+			<input type="text" name="firstname" id="inputFirstName">
+			<span><label class="validateFirstName"> Your first name cannot be less than 2 characters</label></span>
+		</div>
+
+		<div>
+			<label >Age: </label>
+			<input type="number" name="age" id="inputAge">
+			<label class="validateAge"> Your age must be between 5 or a dead corpse</label>
+		</div>
+
+		<div>
+			<label >Username: </label>
+			<input type="text" name="username" id="inputUserName">
+			<label class="validateUsername"> Your username cannot be less than 5 characters</label>
+		</div>
+
+		<div>
+			<label >Password: </label>
+			<input type="password" name="password" id="inputPass">
+			<label class="validatePassword"> Your password cannot be less than 6 characters</label>
+		</div>
+
+		<div>
+			<label >Password (confirmation): </label>
+			<input type="password" name="passwordCon" id="inputPassCon">
+			<label class="validatePasswordConfirm"> Password doesn't match</label>
+		</div>
+		<!-- COMBO BOXES -->
+		<div>
+			<label>Select Country: </label>
+			<select name="country">
+				<option value="">Select a Country</option>
+				<option value="Canada">Canada</option>
+				<option value="United States">United States</option>
+				<option value="Brazil">Brazil</option>
+				<option value="Germany">Germany</option>
+			</select>
+			<label class="countryDrop">Please select a country</label>
+			<!-- CHECK BOXES (newsletter) -->
+			<div>
+				<input type="checkbox" name="newsletter" value="letter"/> 
+				<label class="letter">Subscribe to our newsletter</label>
+			</div>
+			<!-- SUBMIT & RAZ BUTTONS -->
+			<div>
+				<button id="btnSubmit">Submit</button>
+				<button id="btnRaz">RAZ</button>
+			</div>
+		</div>
+	<!-- //======================= form input fields CLOSE =========================\\
+		//=====================================================================\\ -->
+
+	</section>
+</form>
+
+
+<script src="jqeury.js"></script>
+</body>
+</html>
