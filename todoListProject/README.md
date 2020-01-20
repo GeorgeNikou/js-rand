@@ -1,2 +1,2 @@
 ## Todo Project
-This project manipulates html elements using Jqeru and uses arrays to achieve a simple and straight foward Todo List
+This project manipulates html elements using Jqeury and uses arrays to achieve a simple Todo List
