@@ -1,1 +1,1 @@
-### Simple For Loops exercises in both folders using Javascript
+### Simple For Loop exercises in both folders using Javascript
