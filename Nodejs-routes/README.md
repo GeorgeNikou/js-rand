@@ -11,3 +11,5 @@ Actions include:
 * edit post
   * image/title/comment
  * delete post
+
+This project remains somewhat incomplete due a loss of interest. The site still provides the very basic CRUD functionality.   
